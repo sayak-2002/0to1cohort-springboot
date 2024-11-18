@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CakebakerapplicationApplication {
+public class BakeryApplication {
 
 	@Autowired
 	private CakeBaker cakeBaker;
@@ -14,7 +14,7 @@ public class CakebakerapplicationApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(CakebakerapplicationApplication.class, args);
+		SpringApplication.run(BakeryApplication.class, args);
 	}
 
 	@PostConstruct
