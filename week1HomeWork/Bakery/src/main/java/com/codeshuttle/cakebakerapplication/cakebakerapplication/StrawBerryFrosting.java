@@ -10,6 +10,7 @@ public class StrawBerryFrosting implements Frosting {
 
     @Override
     public String getFrostingType() {
+
         return "Strawberry Frosting";
     }
 }

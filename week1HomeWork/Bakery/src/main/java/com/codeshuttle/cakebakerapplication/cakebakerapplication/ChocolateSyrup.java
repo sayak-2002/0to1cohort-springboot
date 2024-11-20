@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class ChocolateSyrup implements Syrup {
 
     public String getSyrupType() {
+
         return "Chocolate Syrup";
     }
 }
