@@ -17,7 +17,7 @@ public class CakeBaker {
 
     public void bakeCake() {
 
-        System.out.println("Baking a cake with " + frosting.getFrostingType() + " and " + syrup.getSyrupType());
+        System.out.println(frosting.getFrostingType() + " " + syrup.getSyrupType());
 
     }
 
