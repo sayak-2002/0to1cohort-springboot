@@ -18,7 +18,6 @@ public class BakeryApplication implements CommandLineRunner {
 		SpringApplication.run(BakeryApplication.class, args);
 	}
 
-
 	@Override
 	public void run(String... args) {
 		cakeBaker.bakeCake();

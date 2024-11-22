@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class CakeBaker {
 
-
     private final Frosting frosting;
     private final Syrup syrup;
 
